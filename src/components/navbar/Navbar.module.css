@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+}
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    background: var(--navbar-color);    
+    position: fixed;
+    z-index: 10;
+}
+
+nav ul{    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+}
+
+.menu li {
+    padding: 0.3rem;
+    margin: 0 0.5rem; /* Add margin between list items */
+}
+/*
+Adios tonotos
+*/
+.navbar a {
+    font-size: 1.5rem;
+    color: var(--primary-text-color);
+    background-color: transparent;
+}
+
+a:active {
+    color: var(--secondary-text-color);
+    background-color: transparent;
+}
+
+
+.mobile_btn {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:720px) {
+    .mobile_btn {
+
+        display: block;
+        position: fixed;
+        top: 2.5%;
+        left: 87%;
+        right: 1rem;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        left: -200%;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        background-color: var(--background-color);
+        z-index: 10;
+        transition: height 1s;
+        height: 70px;
+    }
+
+    .active {
+        left: 0;
+        height: 100vh;
+        transition: height 1s;
+    }
+
+    .navbar a {
+        font-size: 2rem;
+    }
+
+}

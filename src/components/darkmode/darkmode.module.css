@@ -1,0 +1,16 @@
+.container {
+    position: relative;
+    width: 30px; /* Set container width */
+    height: 30px; /* Set container height */
+    background: var(--secondary-text-color);
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  .icon {
+    color: var(--icon-color);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+
+  }
