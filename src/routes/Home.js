@@ -1,5 +1,3 @@
-
-import pfp from "../images/pfp.png"
 import styles from '../styles/home.css'
 import foto from '../images/pfp.png'
 import { FaGithub } from "react-icons/fa";
@@ -9,7 +7,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 export default function Home() {
   return (
-	document.title = "Cocolizo945",
+    document.title = "Cocolizo945",
     <main className="main">
       <canvas>
 

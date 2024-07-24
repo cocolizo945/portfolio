@@ -272,7 +272,7 @@ a:link {
         background-color: var(--container-color);
         display: grid;
         grid-template-columns: 30px 50px 100px 100px 50px 30px;
-        grid-template-rows: 30px 100px 100px 100px 100px 100px 30px ;
+        grid-template-rows: 30px 100px 100px 100px 100px 100px 30px;
         
     }
     

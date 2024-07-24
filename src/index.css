@@ -24,7 +24,7 @@ body {
   --secondary-text-color: #83DD81;
   --icon-color:#181825;
   --hover-color:#89dceb;
-
+  --images:invert(0);
 }
 
 [data-theme="light"]{
@@ -35,4 +35,5 @@ body {
   --secondary-text-color: #4c75e7 ;
   --icon-color:#BCC0CC;
   --hover-color:#8839ef;
+  --images:invert(1);
 }
